@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-image: url("../assets/fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  padding-top: 10px;
+}
+.inicio {
+  text-align: center;
+}
+
+.inventario {
+  text-align: center;
+}
+
+.tabla {
+  font-size: 40px;
+  table-layout: fixed;
+  background-color: rgba(238, 160, 199, 0.863);
+  border-radius: 5px;
+  height: fit-content;
+  width: 662px;
+  border-color: blue;
+}
+
+.encabezado {
+  background-color: rgb(107, 115, 228);
+}

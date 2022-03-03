@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/style_pedido.css" />
+    <title>PASTELERIA AMDY</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="titulo">¡Realiza tu pedido aquí!</h1>
+      <form class="formulario" action="./pedido.html">
+        <h3>
+          El pedido debe realizarse al menos con tres días de anticipación
+        </h3>
+        <h4 class="datos">Datos del cliente</h4>
+        <label for="Nombre">Nombre completo:</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br /><br />
+        <label for="telefono">Número teléfonico:</label><br />
+        <input
+          type="tel"
+          required
+          id="telefono"
+          name="telefono"
+          placeholder="Telefono"
+        /><br /><br />
+        <label for="correo">Correo electrónico:</label><br />
+        <input
+          type="email"
+          required
+          id="correo"
+          name="correo"
+          placeholder="Correo"
+        />
+        <br />
+        <h4 class="pastel">Datos del pedido</h4>
+        <label for="Fecha"> Fecha de entrega: </label>
+        <br />
+        <input type="date" id="fecha" name="fecha" placeholder="Fecha" />
+        <br /><br />
+        <label for="tamanio">Seleccione el tamaño del pastel: </label>
+        <select class="opciones" name="tamanio" id="tamanio">
+          <option value="">Seleccione una opción</option>
+          <option value="">8-10 personas</option>
+          <option value="">12-15 personas</option>
+          <option value="">20 personas</option>
+          <option value="">30 personas</option>
+        </select>
+        <br /><br />
+        <label for="forma">Seleccione la forma del pastel: </label>
+        <select class="molde" name="forma" id="forma">
+          <option value="">Seleccione una opción</option>
+          <option value="">Circular</option>
+          <option value="">Cuadrada</option>
+          <option value="">Rectanular</option>
+          <option value="">Corazón</option>
+        </select>
+        <br /><br />
+        <label for="cubierta">Seleccione la cubierta del pastel: </label>
+        <select class="cubierta" name="cubierta" id="cubierta">
+          <option value="">Seleccione una opción</option>
+          <option value="">Chocolate</option>
+          <option value="">Mermelada</option>
+          <option value="">Chantilline</option>
+          <option value="">Fondant</option>
+          <option value="">Fruta</option>
+        </select>
+        <br /><br />
+        <label for="mensaje">
+          Escriba un mensaje para su pastel (opcional): </label
+        ><br />
+        <input type="text" id="mensaje" name="mensaje" placeholder="Mensaje" />
+        <br /><br />
+        <input type="submit" />
+        <br /><br />
+      </form>
+    </main>
+  </body>
+</html>

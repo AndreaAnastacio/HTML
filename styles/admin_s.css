@@ -17,6 +17,8 @@ body {
 }
 
 .tabla {
+  text-align: center;
+  margin-left: 25%;
   font-size: 40px;
   table-layout: fixed;
   background-color: rgba(238, 160, 199, 0.863);

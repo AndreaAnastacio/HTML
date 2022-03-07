@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  max-width: 1200px;
+}
+
+.header-content img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
 body {
   margin: 0;
   background-image: url("../assets/fondo.png");
@@ -26,26 +53,27 @@ h2 {
   text-align: left;
   font-family: "Architects Daughter", cursive;
   font-size: 25px;
-  margin-left: 25px;
+  margin-top: 70px;
   padding: 10px;
 }
 .lista1 {
   font-size: 40px;
-  margin-left: 20%;
+
   padding: 10px;
   background-color: rgba(255, 235, 205, 0.8);
   border-radius: 15px;
   border-color: #c0bc9c;
   width: 900px;
+  box-shadow: -30px 30px 60px -60px rosybrown;
 }
 .lista2 {
   font-size: 40px;
-  margin-left: 25%;
+  margin-left: 10%;
   padding: 10px;
   background-color: rgba(255, 235, 205, 0.8);
   border-radius: 15px;
   border-color: #c0bc9c;
-  width: 700px;
+  width: 750px;
 }
 .menu {
   color: #6b705c;
@@ -56,7 +84,7 @@ h2 {
   list-style-type: circle;
 }
 .pedido {
-  margin-left: 45%;
+  margin-left: 37%;
   border-radius: 5px;
   letter-spacing: 4px;
   font-size: 30px;
@@ -69,7 +97,7 @@ h2 {
     0 6px 20px 0 rgba(108, 113, 123, 0.15);
 }
 .pedido:hover {
-  background-color: #e6beae;
+  opacity: 0.8;
   color: white;
 }
 .bot {
